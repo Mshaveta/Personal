@@ -1,5 +1,8 @@
 package StringDemos;
-
+/*
+ * == compares the memory addresses
+ * equals() compares the sequence of chars
+ */
 public class StringEqualityDemo {
 	public static void main(String[] args) {
 //		int a=10;
@@ -36,6 +39,15 @@ public class StringEqualityDemo {
 			System.out.println("matched");
 		}else {
 			System.out.println("Not Matched");
+		}
+		
+		
+		String expectedTitle = "facebook";
+		String actualTitle = "FaceBook";
+		if(expectedTitle.equals(actualTitle)) {
+			System.out.println("Matched!");
+		}else {
+			System.out.println("Not Matched!");
 		}
 		
 	}
