@@ -14,7 +14,7 @@ public class PassArrayasParameterInmethod {
 
 	public static void main(String[] args) {
 		PassArrayasParameterInmethod obj = new PassArrayasParameterInmethod();
-		int[] nums = { 10, 20, 30 };
+		int[] nums = { 10, 20, 30 ,40,50,60,70};
 		obj.getSum(nums);
 	}
 
