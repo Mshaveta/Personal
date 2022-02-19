@@ -1,4 +1,4 @@
-package ArraysDemos.TwoDArray;
+package TwoDArray;
 
 public class pewDefinedvaluesinArray {
 
