@@ -1,4 +1,4 @@
-package PatternType2.Newvariables;
+package ControlStructureStmnts.Loops.PatternType2.Newvariables;
 
 import java.util.Scanner;
 

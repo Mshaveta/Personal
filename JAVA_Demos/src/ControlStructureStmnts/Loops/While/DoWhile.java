@@ -7,7 +7,7 @@ public class DoWhile {
 		int a = 100 ; 
 	    System.out.println( ++a ) ;
 
-	    int 1a=20;
+	    //int 1a=20;
 //		 int num=2;
 //		 int i=1;
 //		 do {

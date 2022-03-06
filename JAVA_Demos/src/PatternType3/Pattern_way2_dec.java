@@ -1,22 +1,21 @@
-package ControlStructureStmnts.Loops.PatternType2.Newvariables;
+package PatternType3;
 
 import java.util.Scanner;
 
-public class Pattern3 {
+public class Pattern_way2_dec {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Please enter no of Rows:");
 		int n = scn.nextInt();
 
-		int printNum = 1;
+		 
 		for (int row = 1; row <= n; row++) {
 			
-			for (int col = 1; col <= row; col++) {
-				System.out.print(printNum+" ");
-				printNum++;
+			for (int col = n; col>=row; col--) {
+				System.out.print("*");
 			}
-			
+			 
 			System.out.println();
 			 
 		}

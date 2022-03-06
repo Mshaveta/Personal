@@ -1,4 +1,4 @@
-package PatternType3;
+package ControlStructureStmnts.Loops.PatternType3;
 
 import java.util.Scanner;
 

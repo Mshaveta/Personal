@@ -13,14 +13,14 @@ public class SortingElmns {
 			System.out.println("--------------------inside i loop- "+i+"-----------");
 			for(int j=i+1;j<size;j++) {
 				System.out.println("inside j loop- "+j);
-				if(arr[i]<arr[j]) {
-					System.out.println(arr[i]+" < "+arr[j]+"--- need to shuffle");
+				if(arr[i]>arr[j]) {
+					System.out.println(arr[i]+" > "+arr[j]+"--- need to shuffle");
 					temp = arr[i];
 					arr[i]=arr[j];
 					arr[j]=temp;
 					
 				}else {
-					System.out.println(arr[i]+" > "+arr[j]+"--- no need to shuffle");
+					System.out.println(arr[i]+" < "+arr[j]+"--- no need to shuffle");
 				}
 			}
 			System.out.println("=============="+Arrays.toString(arr)+"==================");
