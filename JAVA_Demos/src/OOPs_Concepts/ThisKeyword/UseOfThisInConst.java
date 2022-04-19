@@ -20,7 +20,6 @@ public class UseOfThisInConst {
 		System.out.println("Const with String param.");
 	}
 
-	
 	public void m1() {
 		UseOfThisInConst utc = new UseOfThisInConst();
 	}
