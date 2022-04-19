@@ -1,3 +1,5 @@
+package ControlStructureStmnts.Loops;
+
 import java.util.Scanner;
 
 public class Pattern5 {
