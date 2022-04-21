@@ -1,6 +1,6 @@
-package OOPs_Concepts.Methods;
+package OOPs_Concepts.staticKeyword;
 
-public class NonParametericMethod {
+public class StaticMethod {
 	 	
 	// user defined / non static / non -parameteric method
 	//method defintion
@@ -16,7 +16,7 @@ public class NonParametericMethod {
 	public static void main(String[] args) {
 		System.out.println("In main Method....");//1
 		
-		NonParametericMethod npm = new NonParametericMethod();
+		StaticMethod npm = new StaticMethod();
 		npm.m1(); //method calling
 		
 		m2();
